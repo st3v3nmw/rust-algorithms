@@ -1,7 +1,8 @@
 def armstrong(n):
-    """ Return True if n is an Armstrong Number else False """
+    """ O(log(n)): Return True if n is an Armstrong Number else False """
     if not isinstance(n, int) or n < 1:
         return False
+
     digits = list(map(int, [x for x in str(n)]))
     n_digits = len(digits)
     return sum([x**n_digits for x in digits]) == n

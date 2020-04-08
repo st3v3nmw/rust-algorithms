@@ -68,11 +68,11 @@ Repository for my algorithms and data structures implementation
 
 * Deque
 * Priority Queue
-* Queue
+* Queue (Dynamic Array Based &#9745;, Linked List Based, Stack Based)
 
 ### Stack
 
-* Stack
+* Stack (Dynamic Array Based &#9745;, Linked List Based)
 
 ### Tree
 
@@ -169,6 +169,7 @@ Repository for my algorithms and data structures implementation
 * Factorials (Iterative, Recursive)
 * Fermat's Last Theorem
 * Fibonacci (Iterative)
+* Finding Full Reptend Primes
 * Greatest Common Divisor (Euclid's Algorithm) &#9745;
 * Least Common Multiple &#9745;
 * Prime Factors
@@ -180,12 +181,12 @@ Repository for my algorithms and data structures implementation
 
 ## Search
 
-* Binary Search
+* Binary Search &#9745;
 * Fibonacci Search
 * Hill Climbing Search
 * Interpolation Search
 * Jump Search
-* Linear Search
+* Linear Search &#9745;
 * Quick Select
 * Simulated Annealing
 * Tabu Search
@@ -195,15 +196,15 @@ Repository for my algorithms and data structures implementation
 
 * Bitonic Sort
 * Bogo Sort
-* Bubble Sort
+* Bubble Sort &#9745;
 * Bucket Sort
 * Counting Sort
 * Cycle Sort
 * Gnome Sort
 * Heap Sort
 * Insertion Sort
-* Merge Sort
-* Quick Sort
+* Merge Sort &#9745;
+* Quick Sort &#9745;
 * Radix Sort
 * Selection Sort
 * Shell Sort
