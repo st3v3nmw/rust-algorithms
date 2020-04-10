@@ -1,15 +1,17 @@
 # algorithms
 
 Repository for my algorithms and data structures implementation
+Note: Run Python files that import custom files from the root directory
 
 ## Backtracking
 
 * All Combinations
 * All Permutations
 * All Subsequences
+* Crossword Puzzle
 * Minimax
-* N Queens
-* Sudoku
+* 8 Queens Puzzle
+* Sudoku &#9745;
 * Sum of Subsets
 
 ## Cipher
@@ -21,6 +23,7 @@ Repository for my algorithms and data structures implementation
 * base85
 * Caesar Cipher
 * Hill Cipher
+* Locality Sensitive Hashing
 * Morse Code
 * Rabin Miller
 * RSA Cipher
@@ -68,11 +71,11 @@ Repository for my algorithms and data structures implementation
 
 * Deque
 * Priority Queue
-* Queue (Dynamic Array Based &#9745;, Linked List Based, Stack Based)
+* Queue (Dynamic Array Based &#9745;, Linked List Based &#9745;)
 
 ### Stack
 
-* Stack (Dynamic Array Based &#9745;, Linked List Based)
+* Stack (Dynamic Array Based &#9745;, Linked List Based &#9745;)
 
 ### Tree
 
@@ -110,7 +113,7 @@ Repository for my algorithms and data structures implementation
 ## Geometry
 
 * Angles between vectors (2D, 3D)
-* Closes Pair of Points
+* Closest Pair of Points
 * Collinear Points
 * Convex Hull
 * Coplanar Points
@@ -124,8 +127,8 @@ Repository for my algorithms and data structures implementation
 * Connected Components
 * Depth First Search
 * Dijkstra's Shorted Path
-* Minimum Spannig Tree Kruskal
-* Minimum Spannig Tree Prim's
+* Minimum Spanning Tree Kruskal
+* Minimum Spanning Tree Prim's
 * Page Rank
 
 ## Linear Algebra
@@ -170,9 +173,9 @@ Repository for my algorithms and data structures implementation
 * Fermat's Last Theorem
 * Fibonacci (Iterative)
 * Finding Full Reptend Primes
-* Greatest Common Divisor (Euclid's Algorithm) &#9745;
+* Greatest Common Divisor (Euclid's Algorithm &#9745;)
 * Least Common Multiple &#9745;
-* Prime Factors
+* Prime Factors below N
 * Primality Check &#9745;
 * Prime Factorizarion
 * Rabin Miller Primality Test

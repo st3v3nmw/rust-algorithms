@@ -7,7 +7,11 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
         self.tail = None
+        self.length = 0
     
+    def __len__(self):
+        pass
+
     def insert_head(self, value):
         node = Node(value)
         node.next = self.head
@@ -15,6 +19,7 @@ class SinglyLinkedList:
 
         if self.tail is None:
             self.tail = self.head
+        self.length += 1
 
     def insert_tail(self, value):
         node = Node(value)
@@ -28,6 +33,7 @@ class SinglyLinkedList:
                 curr = curr.next
             curr.next = node
             self.tail = curr
+        self.length += 1
 
     def insert_pos(self, value, pos):
         pass
@@ -42,6 +48,7 @@ class SinglyLinkedList:
             self.head = None
         else:
             self.head = self.head.next
+        self.length -= 1
         return val
 
     def remove_tail(self):
@@ -59,6 +66,7 @@ class SinglyLinkedList:
                 curr = curr.next
             curr.next = None
             self.tail = curr
+        self.length -= 1
         return val
 
     def remove_pos(self, pos):
@@ -76,16 +84,10 @@ class SinglyLinkedList:
 
 if __name__ == "__main__":
     llist = SinglyLinkedList()
-    llist.insert_tail(1)
-    llist.pprint()
-    llist.insert_head(2)
-    llist.pprint()
-    llist.insert_head(3)
-    llist.pprint()
-    llist.remove_tail()
-    llist.pprint()
-    llist.remove_head()
-    llist.pprint()
-    llist.insert_tail(4)
-    llist.insert_tail(5)
-    llist.pprint()
+    llist.insert_tail(1) # 1 -> NULL
+    llist.insert_head(2) # 2 -> 1 -> NULL
+    llist.insert_head(3) # 3 -> 2 -> 1 -> NULL
+    llist.remove_tail() # 3 -> 2 -> NULL
+    llist.remove_head() # 2 -> NULL
+    llist.insert_tail(4) # 2 -> 4 -> NULL
+    llist.insert_tail(5) # 2 -> 4 -> 5 -> NULL
