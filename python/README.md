@@ -1,7 +1,8 @@
 # algorithms
 
 Repository for my algorithms and data structures implementation
-A work in progress.
+A work in progress
+Note: Run Python files that import custom files from the root directory
 
 ## Backtracking
 
@@ -11,7 +12,7 @@ A work in progress.
 * Crossword Puzzle
 * Minimax
 * 8 Queens Puzzle
-* Sudoku
+* Sudoku &#9745;
 * Sum of Subsets
 
 ## Cipher
@@ -71,11 +72,11 @@ A work in progress.
 
 * Deque
 * Priority Queue
-* Queue (Dynamic Array Based, Linked List Based)
+* Queue (Dynamic Array Based &#9745;, Linked List Based &#9745;)
 
 ### Stack
 
-* Stack (Dynamic Array Based, Linked List Based)
+* Stack (Dynamic Array Based &#9745;, Linked List Based &#9745;)
 
 ### Tree
 
@@ -163,10 +164,10 @@ A work in progress.
 
 ## Number Theory
 
-* Armstrong Number
+* Armstrong Number &#9745;
 * Chinese Remainder Problem
 * Collatz Sequence
-* Coprimality Check
+* Coprimality Check &#9745;
 * Euler Totient Function
 * Euler Totient Function with Sieve
 * Extended Euclidean Algorithm
@@ -174,10 +175,10 @@ A work in progress.
 * Fermat's Last Theorem
 * Fibonacci (Iterative)
 * Finding Full Reptend Primes
-* Greatest Common Divisor (Euclid's Algorithm)
-* Least Common Multiple
+* Greatest Common Divisor (Euclid's Algorithm &#9745;)
+* Least Common Multiple &#9745;
 * Prime Factors below N
-* Primality Check
+* Primality Check &#9745;
 * Prime Factorizarion
 * Rabin Miller Primality Test
 * Sieve of Atkin
@@ -185,12 +186,12 @@ A work in progress.
 
 ## Search
 
-* Binary Search
+* Binary Search &#9745;
 * Fibonacci Search
 * Hill Climbing Search
 * Interpolation Search
 * Jump Search
-* Linear Search
+* Linear Search &#9745;
 * Quick Select
 * Simulated Annealing
 * Tabu Search
@@ -200,15 +201,15 @@ A work in progress.
 
 * Bitonic Sort
 * Bogo Sort
-* Bubble Sort
+* Bubble Sort &#9745;
 * Bucket Sort
 * Counting Sort
 * Cycle Sort
 * Gnome Sort
 * Heap Sort
 * Insertion Sort
-* Merge Sort
-* Quick Sort
+* Merge Sort &#9745;
+* Quick Sort &#9745;
 * Radix Sort
 * Selection Sort
 * Shell Sort

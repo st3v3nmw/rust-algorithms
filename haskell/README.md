@@ -170,7 +170,7 @@ A work in progress.
 * Euler Totient Function
 * Euler Totient Function with Sieve
 * Extended Euclidean Algorithm
-* Factorials (Iterative, Recursive)
+* Factorials (Iterative &#9745;, Recursive &#9745;)
 * Fermat's Last Theorem
 * Fibonacci (Iterative)
 * Finding Full Reptend Primes
