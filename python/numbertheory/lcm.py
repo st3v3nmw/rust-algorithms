@@ -1,3 +1,4 @@
+from functools import reduce
 from gcd import gcd
 
 def lcm(m, n):
@@ -7,10 +8,7 @@ def lcm(m, n):
 
 def lcm_arr(arr):
     """ O(n): Return the lcm for all elements in the array """
-    l = arr[0]
-    for i in range(1, len(arr)):
-        l = lcm(l, arr[i])
-    return l
+    return reduce(lambda m, n: lcm(m, n), arr)
 
 if __name__ == "__main__":
     print(lcm(144, 225)) # 3600

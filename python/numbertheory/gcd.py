@@ -1,3 +1,5 @@
+from functools import reduce
+
 def gcd(m, n):
     """ O(log(m + n)): Return gcd(m, n) using Euclid's algorithm """
     # abs(m) ensures we don't return a negative number
@@ -5,10 +7,7 @@ def gcd(m, n):
 
 def gcd_arr(arr):
     """ O(n): Return the gcd for all elements in the array """
-    g = arr[0]
-    for i in range(1, len(arr)):
-        g = gcd(g, arr[i])
-    return g
+    return reduce(lambda m, n: gcd(m, n), arr)
 
 if __name__ == "__main__":
     print(gcd(0, 0)) # 0
