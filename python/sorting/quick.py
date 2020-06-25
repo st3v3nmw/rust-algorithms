@@ -1,4 +1,5 @@
 def quick_sort(arr):
+    """ Returns a sorted array """
     k = int(len(arr) / 2)
     if k == 0: return arr
     less_than, pivot, greater_than = [], [], []
@@ -12,4 +13,4 @@ def quick_sort(arr):
     return quick_sort(less_than) + pivot + quick_sort(greater_than)
 
 if __name__ == "__main__":
-    print(quick_sort([3, -2, -9, 8, 0, -12, 8, 8]))
+    print(quick_sort([3, -2, -9, 8, 0, -12, 8, 8])) # [-12, -9, -2, 0, 3, 8, 8, 8]

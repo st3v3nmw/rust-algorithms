@@ -125,12 +125,17 @@ A work in progress.
 * A Star
 * Bellman Ford
 * Breadth First Search
+* Check if a graph is bipartite
 * Connected Components
 * Depth First Search
+* Detect and find cycles in a graph
 * Dijkstra's Shorted Path
+* Find augmenting paths in a flow network
+* Find bridges and articulation points
 * Minimum Spanning Tree Kruskal
 * Minimum Spanning Tree Prim's
 * Page Rank
+* Topologically sort the nodes of a graph
 
 ## Linear Algebra
 

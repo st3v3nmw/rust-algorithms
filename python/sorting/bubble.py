@@ -1,5 +1,5 @@
 def bubble_sort(arr):
-    """ O(n^2): Return a sorted array """
+    """ O(n^2): Returns a sorted array """
     n = len(arr)
     for i in range(n):
         for j in range(n-1):
