@@ -2,7 +2,6 @@ from functools import reduce
 
 def gcd(m, n):
     """ O(log(m + n)): Return gcd(m, n) using Euclid's algorithm """
-    # abs(m) ensures we don't return a negative number
     return abs(m) if n == 0 else gcd(n, m % n)
 
 def gcd_arr(arr):

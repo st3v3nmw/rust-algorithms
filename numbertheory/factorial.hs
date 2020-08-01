@@ -8,5 +8,5 @@ factorialRecursive 0 = 1
 factorialRecursive n = n * factorialRecursive(n-1)
 
 main = do
-    print (factorialIterative 10)
-    print (factorialRecursive 10)
+    print (factorialIterative 42)
+    print (factorialRecursive 42)

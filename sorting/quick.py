@@ -1,12 +1,12 @@
 def quick_sort(arr):
     """ Returns a sorted array """
-    k = int(len(arr) / 2)
-    if k == 0: return arr
+    p = int(len(arr) / 2) # pivot position
+    if p == 0: return arr
     less_than, pivot, greater_than = [], [], []
     for x in arr:
-        if x < arr[k]:
+        if x < arr[p]:
             less_than.append(x)
-        elif x > arr[k]:
+        elif x > arr[p]:
             greater_than.append(x)
         else:
             pivot.append(x) # stores repeated elements too
