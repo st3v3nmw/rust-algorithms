@@ -58,6 +58,7 @@ A work in progress.
 ### Heap
 
 * Binomial Heap
+* Fibonacci Heap
 * Heap
 * Min Heap
 
@@ -82,12 +83,14 @@ A work in progress.
 * AVL Tree
 * Basic Binary Tree
 * Binary Search Tree
+* B Tree
 * Fenwick Tree
 * Merkle Tree
 * Quad Tree
 * RedBlack Tree
 * Segment Tree
 * Splay Tree
+* van Emde Boas Tree
 
 ### Trie
 
@@ -109,7 +112,8 @@ A work in progress.
 * Longest Common Substring
 * Longest Increasing Subsequence
 * Longest Palindrome Subsequence
-* Maximum Subarray
+* Maximum Subarray Problem
+* Rod Cutting
 
 ## Geometry
 
@@ -126,15 +130,20 @@ A work in progress.
 * Bellman Ford
 * Breadth First Search
 * Check if a graph is bipartite
-* Connected Components
 * Depth First Search
 * Detect and find cycles in a graph
 * Dijkstra's Shorted Path
 * Find augmenting paths in a flow network
 * Find bridges and articulation points
+* Floyd-Warshall algorithm
+* Ford-Fulkerson Method
+* Johnson's algorithm for sparse paths
+* Maximum Bipartite Matching
 * Minimum Spanning Tree Kruskal
 * Minimum Spanning Tree Prim's
 * Page Rank
+* Push-relabel algoritms
+* Strongly Connected Components
 * Topologically sort the nodes of a graph
 
 ## Linear Algebra
@@ -223,5 +232,8 @@ A work in progress.
 
 * Booth's Algorithm
 * Boyer Moore String Search
+* Knuth-Morris-Pratt algorithm
 * Longest Common Prefix
 * Longest Repeated Substring
+* Rabin-Karp algorithm
+* String matching with finite automata
