@@ -9,8 +9,16 @@ class SinglyLinkedList:
         self.tail = None
         self.length = 0
     
-    def __len__(self):
-        pass
+    def __len__(self) -> int:
+        return self.length
+
+    def __repr__(self) -> str:
+        r = ""
+        curr = self.head
+        while curr is not None:
+            r += str(curr.data) + " -> "
+            curr = curr.next
+        return r + "NULL"
 
     def insert_head(self, value):
         node = Node(value)
@@ -70,14 +78,7 @@ class SinglyLinkedList:
         return val
 
     def remove_pos(self, pos):
-        return
-
-    def pprint(self):
-        curr = self.head
-        while curr is not None:
-            print(curr.data, end=" -> ")
-            curr = curr.next
-        print("NULL")
+        pass
 
     def search(self, item):
         pass
@@ -91,3 +92,4 @@ if __name__ == "__main__":
     llist.remove_head() # 2 -> NULL
     llist.insert_tail(4) # 2 -> 4 -> NULL
     llist.insert_tail(5) # 2 -> 4 -> 5 -> NULL
+    print(llist)

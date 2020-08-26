@@ -1,6 +1,7 @@
 # algorithms
 
-Repository for my algorithms and data structures implementation
+Repository for my algorithms and data structures implementation \
+Checked algorithms have been implemented in at least one language in the respective folders \
 A work in progress.
 
 ## Backtracking
@@ -42,9 +43,9 @@ A work in progress.
 
 ### Bloom Filter
 
-* Anagram Set
-* Bloom Filter
-* String Set
+* [] Anagram Set
+* [x] Bloom Filter
+* [] String Set
 
 ### Graphs
 
@@ -182,7 +183,6 @@ A work in progress.
 * Collatz Sequence
 * Coprimality Check
 * Euler Totient Function
-* Euler Totient Function with Sieve
 * Extended Euclidean Algorithm
 * Factorials (Iterative, Recursive)
 * Fermat's Last Theorem
