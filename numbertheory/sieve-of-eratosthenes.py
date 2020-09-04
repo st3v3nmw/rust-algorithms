@@ -1,4 +1,5 @@
 def primes_below_n(n):
+	""" Sieve of Eratosthenes """
 	sieve = [True] * n
 	p = 2
 	k = 2

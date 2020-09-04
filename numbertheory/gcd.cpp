@@ -26,7 +26,6 @@ int main() {
     cout << gcd(-144, 225) << "\n"; // 9
     cout << gcd(-144, -225) << "\n"; // 9
 
-    vector<int> arr = {200, 500, 6000};
-    cout << gcd_arr(arr) << endl; // 100
+    cout << gcd_arr(vector<int>{200, 500, 6000}) << endl; // 100
     return 0;
 }

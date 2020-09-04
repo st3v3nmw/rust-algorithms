@@ -1,4 +1,4 @@
-def φ(n):
+def φ(n) -> int:
     """ 
     Euler's totient function φ
     φ(n) is defined as the number of positive integers <= n that are relatively prime to n

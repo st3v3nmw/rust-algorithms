@@ -12,7 +12,7 @@ A work in progress.
 * Crossword Puzzle
 * Minimax
 * 8 Queens Puzzle
-* Sudoku
+* [x] Sudoku
 * Sum of Subsets
 
 ## Cipher
@@ -73,11 +73,11 @@ A work in progress.
 
 * Deque
 * Priority Queue
-* Queue (Dynamic Array Based, Linked List Based)
+* [x] Queue (Dynamic Array Based, Linked List Based)
 
 ### Stack
 
-* Stack (Dynamic Array Based, Linked List Based)
+* [x] Stack (Dynamic Array Based, Linked List Based)
 
 ### Tree
 
@@ -109,7 +109,7 @@ A work in progress.
 * Fibonacci (Fast Doubling, Matrix Exponentiation)
 * Josephus Problem
 * Knapsack Problem
-* Longest Common Subsequence
+* [x] Longest Common Subsequence
 * Longest Common Substring
 * Longest Increasing Subsequence
 * Longest Palindrome Subsequence
@@ -178,33 +178,33 @@ A work in progress.
 
 ## Number Theory
 
-* Armstrong Number
+* [x] Armstrong Number
 * Chinese Remainder Problem
 * Collatz Sequence
-* Coprimality Check
-* Euler Totient Function
+* [x] Coprimality Check
+* [x] Euler Totient Function
 * Extended Euclidean Algorithm
 * Factorials (Iterative, Recursive)
 * Fermat's Last Theorem
 * Fibonacci (Iterative)
 * Finding Full Reptend Primes
-* Greatest Common Divisor (Euclid's Algorithm)
-* Least Common Multiple
-* Prime Factors below N
-* Primality Check
+* [x] Greatest Common Divisor (Euclid's Algorithm)
+* [x] Least Common Multiple
+* [x] Prime Factors below N
+* [x] Primality Check
 * Prime Factorizarion
 * Rabin Miller Primality Test
 * Sieve of Atkin
-* Sieve of Eratosthenes
+* [x] Sieve of Eratosthenes
 
 ## Search
 
-* Binary Search
+* [x] Binary Search
 * Fibonacci Search
 * Hill Climbing Search
 * Interpolation Search
 * Jump Search
-* Linear Search
+* [x] Linear Search
 * Quick Select
 * Simulated Annealing
 * Tabu Search
@@ -214,17 +214,17 @@ A work in progress.
 
 * Bitonic Sort
 * Bogo Sort
-* Bubble Sort
+* [x] Bubble Sort
 * Bucket Sort
 * Counting Sort
 * Cycle Sort
 * Gnome Sort
 * Heap Sort
-* Insertion Sort
-* Merge Sort
-* Quick Sort
+* [x] Insertion Sort
+* [x] Merge Sort
+* [x] Quick Sort
 * Radix Sort
-* Selection Sort
+* [x] Selection Sort
 * Shell Sort
 * Tree Sort
 
