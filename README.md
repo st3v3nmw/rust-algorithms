@@ -233,7 +233,8 @@ A work in progress.
 * Booth's Algorithm
 * Boyer Moore String Search
 * Knuth-Morris-Pratt algorithm
-* Longest Common Prefix
+* [x] Longest Common Prefix Array
 * Longest Repeated Substring
 * Rabin-Karp algorithm
 * String matching with finite automata
+* [x] Suffix Array
