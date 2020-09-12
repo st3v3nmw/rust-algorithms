@@ -1,9 +1,4 @@
-import os
-import sys
-sys.path.append(os.getcwd())
-
-# yep, weird import
-from datastructures.queue.queue import ListQueue
+from queue_custom import ListQueue
 
 class Deque(ListQueue):
     def __init__(self):

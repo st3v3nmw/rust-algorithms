@@ -1,9 +1,4 @@
-import os
-import sys
-sys.path.append(os.getcwd())
-
-# yep, weird import
-from datastructures.linkedlist.singly_linked_list import SinglyLinkedList
+from singly_linked_list import SinglyLinkedList
 
 class ListStack:
     """ A stack based on a dynamic array (Python's list) """
@@ -63,6 +58,23 @@ class LinkedStack:
     def is_empty(self) -> bool:
         return self.list.length == 0
 
+def check_brackets(bracket_string):
+    """ Returns True if the brackets sequence is valid else False """
+    opening_brackets = ["{", "[", "("]
+    closing_brackets = ["}", "]", ")"]
+    stack = ListStack()
+    for bracket in bracket_string:
+        if bracket in opening_brackets:
+            stack.push(bracket)
+        elif stack.is_empty() or opening_brackets[closing_brackets.index(bracket)] != stack.pop():
+            # brackets don't match
+            return False
+    return stack.is_empty() # valid if the stack is empty
+
+def towers_of_hanoi(n):
+    pass
+
+
 if __name__ == "__main__":
     stack = ListStack()
     stack.push(8) # [8]
@@ -79,3 +91,9 @@ if __name__ == "__main__":
     lstack.push(89) # 89 -> 12 -> 8 -> NULL
     lstack.pop() # 12 -> 8 -> NULL
     print(lstack)
+
+    print(check_brackets("[{}]")) # True
+    print(check_brackets("(()())")) # True
+    print(check_brackets("{]")) # False
+    print(check_brackets("[()]))()")) # False
+    print(check_brackets("[]{}({})")) # True

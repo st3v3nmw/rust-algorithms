@@ -15,10 +15,10 @@ auto lcm = []<typename T>(T m, T n) {
 };
 
 template <typename T>
-T lcm_arr(vector<T> arr) {
+T lcm_arr(const vector<T>& arr) {
     T lcm_r = arr[0];
     for (auto num : arr)
-        lcm_r = lcm(lcm_r, num);
+        lcm_r = __lcm(lcm_r, num);
     return lcm_r;
 }
 

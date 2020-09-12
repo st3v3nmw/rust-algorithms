@@ -1,9 +1,4 @@
-import os
-import sys
-sys.path.append(os.getcwd())
-
-# yep, weird import
-from datastructures.linkedlist.singly_linked_list import SinglyLinkedList
+from singly_linked_list import SinglyLinkedList
 
 class ListQueue:
     """ A queue based on a dynamic array (Python's list) """

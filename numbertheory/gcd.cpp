@@ -11,10 +11,10 @@ T gcd(T m, T n) { // Compute the GCD of m & n using Euclid's Algorithm
 }
 
 template <typename T>
-T gcd_arr(vector<T> arr) { // Compute the GCD of a vector
+T gcd_arr(const vector<T>& arr) { // Compute the GCD of a vector
     T gcd_r = arr[0];
     for (auto num : arr)
-        gcd_r = gcd(gcd_r, num);
+        gcd_r = __gcd(gcd_r, num);
     return gcd_r;
 }
 
