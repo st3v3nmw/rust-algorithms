@@ -96,6 +96,7 @@ A work in progress.
 ### Hash Table
 
 * Hash Table
+* Skip List
 
 ### Heap
 
@@ -123,6 +124,7 @@ A work in progress.
 
 ### Tree
 
+* (2,4) tree
 * AVL Tree
 * Basic Binary Tree
 * Binary Search Tree
@@ -134,24 +136,21 @@ A work in progress.
 * Link cut Tree
 * Merkle Tree
 * Quad Tree
-* RedBlack Tree
+* Red-Black Tree
 * Segment Tree
 * Splay Tree
 * Sqrt decomposition
 * Sqrt tree
 * Stern-Brocot Tree and Farey sequences
-* Suffix Tree
 * Treap/Cartesian Tree
 * van Emde Boas Tree
 
-### Trie
-
-* Trie
-
 ### Union Find
 
+* Grid Percolation
 * Lowest Common Ancestors using DSU
-* Union Find
+* [x] Path compression
+* [x] Union Find
 
 ## Dynamic Programming
 
@@ -183,9 +182,10 @@ A work in progress.
 ## Geometry
 
 * Angles between vectors (2D, 3D)
+* Centroids
 * Chan's algorithm
 * Closest Pair of Points
-* Collinear Points
+* Collinear Pointbvcxs
 * Collision detection
 * Cone algorithm
 * Coplanar Points
@@ -197,6 +197,7 @@ A work in progress.
 * Jump-and-Walk algorithm
 * Kirkpatrick-Seidel algorithm
 * Line segment intersection
+* Mesh Generation
 * Minimum bounding box algorithm
 * Nearest Neighbour search
 * Point in polygon
@@ -224,6 +225,7 @@ A work in progress.
 * Dinic's Algorithm
 * Edmonds' algorithm
 * Euclidean shortest path problem
+* Euler Tour
 * Find augmenting paths in a flow network
 * Find bridges and articulation points
 * Floyd-Warshall Shortest Path
@@ -235,6 +237,7 @@ A work in progress.
 * Hopcroft-Karp algorithm
 * Hungarian algorithm
 * Hyperlink-Induced Topic Search
+* Isomorphism
 * Iterative deepening DFS
 * Johnson's algorithm for sparse paths
 * Jump point search
@@ -243,7 +246,7 @@ A work in progress.
 * Lexicographic BFS
 * Longest path problem
 * Maximum Bipartite Matching
-* Minimum Spanning Tree Kruskal
+* [x] Minimum Spanning Tree Kruskal
 * Minimum Spanning Tree Prim's
 * PageRank
 * Path-based strong components algorithm
@@ -267,6 +270,7 @@ A work in progress.
 ## Linear Algebra
 
 * Biconjugate gradient method
+* Freivalds' algorithm
 * Gaussian Elimination
 * Kraut & Determinant
 * Matrix Inverse
@@ -416,6 +420,7 @@ A work in progress.
 * [x] Selection Sort
 * Shell Sort
 * Stooge Sort
+* Wavelet tree
 * Tim Sort
 * Tree Sort
 
@@ -444,8 +449,10 @@ A work in progress.
 * String matching with finite automata
 * [x] Suffix Array
 * Suffix Automaton
+* Suffix Tree
+* Trie
 * Ukkonen's algorithm
-* Z algorithm
+* Z Function
 * Zhu-Takaoka string matching
 
 ## Miscellaneous
