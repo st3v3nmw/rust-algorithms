@@ -1,21 +1,13 @@
-def primes_below_n(n):
+def sieve(n : int) -> list:
 	""" Sieve of Eratosthenes """
-	sieve = [True] * n
-	p = 2
-	k = 2
-	primes = [2]
-	while p < n:
-		while k*p < n:
-			sieve[k*p] = False
-			k += 1
-		try:
-			p = sieve.index(True, p+1)
-			k = 2
-			primes.append(p)
-		except ValueError:
-			break
+	is_prime = [True] * (n + 1)
+	primes = []
+	for i in range(2, n + 1):
+		if (is_prime[i]):
+			primes.append(i)
+			for j in range(i * i, n + 1, i):
+				is_prime[j] = False
 	return primes
-
 
 # saw this implementation on ComputerPhile, but Maximum Recursion Depth... :(
 # and the version above is about ~89 times faster
@@ -25,15 +17,15 @@ def successor(x):
     yield x
     yield from successor(x)
 
-def sieve(s):
+def sieve_new(s):
     n = next(s)
     yield n
-    yield from sieve(i for i in s if i % n != 0)
+    yield from sieve_new(i for i in s if i % n != 0)
 
-s = sieve(successor(1))
+s = sieve_new(successor(1))
 llist = []
 for _ in range(128):
     llist.append(next(s))
 print(llist)
 
-print(primes_below_n(720))
+print(sieve(720))

@@ -71,7 +71,6 @@ A work in progress.
 * Hill Cipher
 * Locality Sensitive Hashing
 * Morse Code
-* Rabin Miller
 * RSA Cipher
 * RSA Factorization
 * RSA Key Generator
@@ -429,7 +428,7 @@ A work in progress.
 
 ## String
 
-* Aho-Corasick string mathing algorithm
+* Aho-Corasick string matching algorithm
 * Boyer-Moore String Search
 * Boyer-Moore-Horpspool String Search
 * Damerau-Levenshtein distance
@@ -437,13 +436,13 @@ A work in progress.
 * Hamming Distance
 * Jaro-Winkler distance
 * Krauss matching wildcards algorithm
-* Knuth-Morris-Pratt algorithm
+* [x] Knuth-Morris-Pratt algorithm
 * Levenshtein edit distance
 * [x] Longest Common Prefix Array
 * Longest Repeated Substring
 * Lyndon factorization
 * Manacher's algorithm
-* Rabin-Karp algorithm
+* [x] Rabin-Karp algorithm
 * Radix Sort
 * Rich Salz' wildmat
 * String matching with finite automata
