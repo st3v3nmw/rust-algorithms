@@ -4,13 +4,13 @@ using namespace std;
 #define ll long long
 
 // O(nlog(log(n))).
-vector<ll> sieve(ll n) {
+vector<uint> sieve(uint n) {
     vector<bool> is_prime(n+1, true);
-    vector<ll> primes;
-    for (ll i = 2; i <= n; i++) {
+    vector<uint> primes;
+    for (uint i = 2; i <= n; i++) {
         if (is_prime[i]) {
             primes.push_back(i);
-            for (ll j = i * i; j <= n; j += i)
+            for (uint j = i * i; j <= n; j += i)
                 is_prime[j] = false;
         }
     }
@@ -18,8 +18,8 @@ vector<ll> sieve(ll n) {
 }
 
 int main() {
-    vector<ll> d = sieve(10000000);
-    for (ll e : d)
+    vector<uint> d = sieve(128);
+    for (uint e : d)
         cout << e << " ";
     cout << endl;
 }

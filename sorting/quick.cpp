@@ -5,7 +5,7 @@ using namespace std;
 
 template <typename T>
 vector<T> quick_sort(vector<T> arr) {
-    int p = arr.size() / 2; // pivot position
+    uint p = arr.size() / 2; // pivot position
     vector<T> less_than, pivot, greater_than;
 
     // partition
@@ -36,7 +36,7 @@ vector<T> quick_sort(vector<T> arr) {
 int main() {
     vector<int> arr = {3, -2, 9, 0, 0, 12, -5, 8};
     arr = quick_sort(arr); // -5 -2 0 0 3 8 9 12 
-    for (int i = 0; i < arr.size(); i++)
+    for (uint i = 0; i < arr.size(); i++)
         cout << arr[i] << " ";
     cout << endl;
     return 0;

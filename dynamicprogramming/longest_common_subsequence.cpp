@@ -3,7 +3,7 @@
 using namespace std;
 
 string longest_common_subseq_iter(const string& string1, const string& string2) {
-    int n = string1.size(), m = string2.size();
+    uint n = string1.size(), m = string2.size();
 
     vector<vector<int>> dp(n + 1, vector<int>(m + 1));
     for (int i = 0; i < n; i++) {
@@ -37,7 +37,7 @@ string lcs_variadic(vector<string> args) {
     }
 
     string r = longest_common_subseq_iter(args[0], args[1]);
-    for (int i = 2; i < args.size(); i++)
+    for (uint i = 2; i < args.size(); i++)
         r = longest_common_subseq_iter(r, args[i]);
     return r;
 }

@@ -4,10 +4,10 @@ using namespace std;
 
 // O(nlog(n)) - dp & binary search
 int longest_inc_subseq(vector<ll> const& arr) {
-    const int n = arr.size();
+    const uint int n = arr.size();
     vector<ll> d(n+1, 1e18);
     d[0] = -1e18;
-    for (int i = 0; i < n; i++) {
+    for (uint i = 0; i < n; i++) {
         int j = upper_bound(d.begin(), d.end(), arr[i]) - d.begin();
         if (d[j-1] < arr[i] && arr[i] < d[j])
             d[j] = arr[i];
@@ -17,8 +17,8 @@ int longest_inc_subseq(vector<ll> const& arr) {
         cout << e << " ";
     cout << "\n";
 
-    int ans = 0;
-    for (int i = 0; i <= n; i++) {
+    uint ans = 0;
+    for (uint i = 0; i <= n; i++) {
         if (d[i] < 1e18)
             ans = i;
         cout << d[i] << endl;
@@ -29,9 +29,9 @@ int longest_inc_subseq(vector<ll> const& arr) {
 // O(n^2) - dp
 vector<ll> longest_inc_subseq_quad(vector<ll> const& arr) {
     vector<vector<ll>> arr2(arr.size());
-    for (int i = 0; i < arr.size(); i++)
+    for (uint i = 0; i < arr.size(); i++)
         arr2[i] = {1, i, i};
-    for (int i = 1; i < arr.size(); i++) {
+    for (uint i = 1; i < arr.size(); i++) {
         for (int j = 0; j < i; j++) {
             arr2[i][0];
             if (arr[i] > arr[j]) {

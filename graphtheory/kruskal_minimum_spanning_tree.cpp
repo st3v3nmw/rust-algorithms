@@ -4,23 +4,23 @@ using namespace std;
 
 class union_find {
     public:
-        union_find(unsigned int n) {
-            parent = vector<unsigned int> (n);
-            size = vector<unsigned int> (n, 1);
-            for (unsigned int i = 0; i < n; i++)
+        union_find(uint n) {
+            parent = vector<uint> (n);
+            size = vector<uint> (n, 1);
+            for (uint i = 0; i < n; i++)
                 parent[i] = i;
         }
 
-        unsigned int find(unsigned int x) {
+        uint find(uint x) {
             if (parent[x] == x)
                 return x;
             parent[x] = find(parent[x]);
             return parent[x];
         }
 
-        void unify(unsigned int x, unsigned int y) {
-            unsigned int p_x = find(x);
-            unsigned int p_y = find(y);
+        void unify(uint x, uint y) {
+            uint p_x = find(x);
+            uint p_y = find(y);
 
             if (p_x == p_y)
                 return; // x and y are already in the same set
@@ -29,11 +29,11 @@ class union_find {
             size[p_y] += size[p_x];
         }
 
-        bool connected(unsigned int x, unsigned int y) {
+        bool connected(uint x, uint y) {
             return find(x) == find(y);
         }
 
-        vector<unsigned int> parent, size;
+        vector<uint> parent, size;
 };
 
 class Edge {

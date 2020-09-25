@@ -1,35 +1,8 @@
-# algorithms
+# Algorithms
 
 Repository for my algorithms and data structures implementation \
 Checked algorithms have been implemented in at least one language in the respective folders \
 A work in progress.
-
-## Roadmap (CF tags)
-
-* Dynamic Programming
-* Data Structures
-* Graphs
-* Greedy Algorithms
-* Sorting
-* Strings
-* Number Theory
-* Combinatorics
-* Geometry
-* Bitmasks
-* Two pointers
-* Union Find
-* Probabilities
-* Divide and conquer
-* Hashing
-* Game Theory
-* Linear Algebra
-* 2-sat
-* Backtracking
-* Fourier Transforms
-* Scheduling
-* Cryptography
-* Compression
-* Machine Learning
 
 ## Backtracking
 
@@ -158,13 +131,12 @@ A work in progress.
 * Factorials (Recursion with Memoization)
 * Fibonacci (Fast Doubling, Matrix Exponentiation)
 * Josephus Problem
-* Kadane's algorithm (might not be dp...)
+* [x] Kadane's algorithm - Maximum Subarray Problem
 * 0/1 Knapsack Problem
 * [x] Longest Common Subsequence
 * Longest Common Substring
 * [x] Longest Increasing Subsequence
 * Longest Palindrome Subsequence
-* Maximum Subarray Problem
 * Rod Cutting
 * Shortest Common Supersequence
 
