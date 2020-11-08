@@ -138,19 +138,20 @@ A work in progress.
 
 ## Dynamic Programming
 
-- [ ] Coin Change Problem
-- [ ] Coin Row Problem
+- [x] Coin Change Problem
+- [x] Coin Row Problem
 - [ ] Edit Distance
-- [ ] Factorials (Recursion with Memoization)
-- [ ] Fibonacci (Fast Doubling, Matrix Exponentiation)
+- [ ] Fibonacci (Fast Doubling)
+- [ ] Fibonacci (Matrix Exponentiation)
+- [x] Fibonacci (Recursion with memoization)
 - [ ] Josephus Problem
-- [ ] Kadane's algorithm - Maximum Subarray Problem
-- [ ] 0/1 Knapsack Problem
+- [x] Kadane's algorithm - Maximum Subarray Problem
+- [x] 0/1 Knapsack Problem (Bounded)
+- [x] 0/1 Knapsack Problem (Unbounded)
 - [ ] Longest Common Subsequence
 - [ ] Longest Common Substring
 - [ ] Longest Increasing Subsequence
 - [ ] Longest Palindrome Subsequence
-- [ ] Rod Cutting
 - [ ] Shortest Common Supersequence
 
 ## Game Theory
@@ -164,7 +165,7 @@ A work in progress.
 
 - [ ] Angles between vectors (2D, 3D)
 - [ ] Centroids
-- [ ] Chan's algorithm
+- [ ] Chan's algorithm (Convex Hull)
 - [ ] Closest Pair of Points
 - [ ] Collinear Points
 - [ ] Collision detection
@@ -172,9 +173,9 @@ A work in progress.
 - [ ] Coplanar Points
 - [ ] Euclidean Distance
 - [ ] Geometric hashing
-- [ ] Gift wrapping algorithm
+- [ ] Gift wrapping algorithm (Convex Hull)
 - [ ] Gilbert-Johnson-Keerthi distance
-- [ ] Graham scan
+- [ ] Graham's scan (Convex Hull)
 - [ ] Jump-and-Walk algorithm
 - [ ] Kirkpatrick-Seidel algorithm
 - [ ] Line segment intersection
@@ -226,8 +227,8 @@ A work in progress.
 - [ ] Lexicographic BFS
 - [ ] Longest path problem
 - [ ] Maximum Bipartite Matching
-- [ ] Minimum Spanning Tree Kruskal
-- [ ] Minimum Spanning Tree Prim's
+- [ ] Minimum Spanning Tree (Kruskal)
+- [ ] Minimum Spanning Tree (Prim's)
 - [ ] PageRank
 - [ ] Path-based strong components algorithm
 - [ ] Prufer coding
@@ -313,16 +314,15 @@ A work in progress.
 - [ ] Coprimality Check
 - [ ] Dixon's Algorithm
 - [ ] Euler Totient Function
+- [ ] Euclid's Algorithm
 - [ ] Extended Euclidean Algorithm
 - [ ] Factorial Modulo P
-- [ ] Factorials (Iterative, Recursive)
+- [ ] Factorials (Iterative)
 - [ ] Fermat's Factorization method
 - [ ] Fermat's Last Theorem
 - [ ] Fermat Primality test
-- [ ] Fibonacci (Iterative)
 - [ ] Finding Full Reptend Primes
 - [ ] General Number Field Sieve
-- [ ] Greatest Common Divisor (Euclid's Algorithm)
 - [ ] Karatsuba algorithm
 - [ ] Least Common Multiple
 - [ ] Lagged Fibonacci Pseudorandom Number Generator
