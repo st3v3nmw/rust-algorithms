@@ -1,4 +1,4 @@
-def insertion_sort(arr):
+def insertion_sort(arr: list) -> list:
     for i in range(1, len(arr)):
         for j in range(i, 0, -1):
             if arr[j] < arr[j - 1]:

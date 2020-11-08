@@ -22,13 +22,13 @@ void factors(int n, map<int, int>& d) {
         d.insert({n, 1});
 }
 
-uint divisors_count(int n) {
+int divisors_count(int n) {
     if (n == 1)
         return 1;
 
     map<int, int> d;
     factors(n, d);
-    uint result = 1;
+    int result = 1;
     for (pair<int, int> e : d)
         result *= (e.second + 1);
     return result;
@@ -40,7 +40,7 @@ int divisors_sum(int n) {
 
     map<int, int> d;
     factors(n, d);
-    uint result = 1;
+    int result = 1;
     for (pair<int, int> e : d)
         result *= (pow(e.first, e.second + 1) - 1) / (e.first - 1);
     return result;
