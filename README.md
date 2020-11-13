@@ -1,7 +1,7 @@
 # Algorithms
 
-Repository for my algorithms and data structures implementation \
-Checked algorithms have been implemented in Rust in the respective folders \
+Repository for my algorithms and data structures implementation. \
+Checked algorithms have been implemented in the respective folders (mostly in Rust). \
 A work in progress.
 
 ## Backtracking
@@ -12,7 +12,10 @@ A work in progress.
 - [ ] Crossword Puzzle
 - [ ] 8 Queens Puzzle
 - [ ] Sudoku
-- [ ] Sum of Subsets
+
+## Bruteforce
+
+- [x] Generating subsets
 
 ## Combinatorics
 
