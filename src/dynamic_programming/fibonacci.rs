@@ -7,7 +7,7 @@
     f[n] = f[n-1] + f[n-2]
 **/
 
-fn fibonacci_iterative(n: i64) -> i64 { // O(n) time
+pub fn fibonacci_iterative(n: i64) -> i64 { // O(n) time
     let mut f: Vec<i64> = vec![0; n as usize + 1];
     f[1] = 1;
 
@@ -18,14 +18,14 @@ fn fibonacci_iterative(n: i64) -> i64 { // O(n) time
     return f[n as usize];
 }
 
-fn fibonacci_recursive_wrapper(n: i64) -> i64 {
+pub fn fibonacci_recursive_wrapper(n: i64) -> i64 {
     let mut dp: Vec<i64> = vec![-1; n as usize + 1];
     dp[0] = 0;
     dp[1] = 1;
     return fibonacci_recursive(n, &mut dp);
 }
 
-fn fibonacci_recursive(n: i64, dp: &mut [i64]) -> i64 {
+pub fn fibonacci_recursive(n: i64, dp: &mut [i64]) -> i64 {
     if n <= 0 {
         return 0;
     } else if n == 1 {
@@ -39,10 +39,17 @@ fn fibonacci_recursive(n: i64, dp: &mut [i64]) -> i64 {
     return dp[n as usize];
 }
 
-fn main() {
-    // Iterative Fibonacci
-    assert_eq!(fibonacci_iterative(40), 102334155);
+#[cfg(test)]
+mod tests {
+    use super::*;
 
-    // Recursive Fibonacci
-    assert_eq!(fibonacci_recursive_wrapper(40), 102334155);
+    #[test]
+    fn fibonacci_iterative_test() {
+        assert_eq!(fibonacci_iterative(40), 102334155);
+    }
+
+    #[test]
+    fn fibonacci_recursive_test() {
+        assert_eq!(fibonacci_recursive_wrapper(40), 102334155);
+    }
 }

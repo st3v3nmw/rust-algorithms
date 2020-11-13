@@ -4,7 +4,7 @@
     dp[0] = 0
     dp[i] = min(dp[i - denominations[j]]) + 1
 **/
-fn coin_change(denominations: &mut Vec<i64>, change: i64) -> Vec<i64> {
+pub fn coin_change(denominations: &mut Vec<i64>, change: i64) -> Vec<i64> {
     let mut dp: Vec<(i64, i64)> = vec![(i64::MAX, 0); change as usize + 1];
     dp[0].0 = 0;
 
@@ -29,6 +29,12 @@ fn coin_change(denominations: &mut Vec<i64>, change: i64) -> Vec<i64> {
     return picked;
 }
 
-fn main() {
-    assert_eq!(coin_change(&mut (vec![1, 3, 4]), 6), vec![3, 3]);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn coin_change_test() {
+        assert_eq!(coin_change(&mut (vec![1, 3, 4]), 6), vec![3, 3]);
+    }
 }

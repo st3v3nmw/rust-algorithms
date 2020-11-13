@@ -1,21 +1,17 @@
 # Algorithms
 
-Repository for my algorithms and data structures implementation. \
-Checked algorithms have been implemented in the respective folders (mostly in Rust). \
+Repository for my algorithms and data structures implementation (Lists approx. 400 algorithms). \
+Checked algorithms have been implemented in Rust in the respective folders. \
 A work in progress.
 
 ## Backtracking
 
-- [ ] All Combinations
-- [ ] All Permutations
-- [ ] All Subsequences
 - [ ] Crossword Puzzle
-- [ ] 8 Queens Puzzle
+- [ ] Hamiltonian Cycle
+- [ ] Knight's Tour Problem
+- [ ] N Queens Puzzle
+- [ ] Subset Sum
 - [ ] Sudoku
-
-## Bruteforce
-
-- [x] Generating subsets
 
 ## Combinatorics
 
@@ -23,16 +19,34 @@ A work in progress.
 - [ ] Burnside's lemma
 - [ ] Brent's algorithm
 - [ ] Catalan Numbers
+- [ ] Fisher-Yates shuffle
 - [ ] Floyd's cycle-finding algorithm
 - [ ] Gale-Shapley algorithm
 
 ## Compression
 
+- [ ] Arithmetic Coding
 - [ ] Delta Encoding
 - [ ] Huffman Coding
+- [ ] Lempel-Ziv-Welch algorithm
+- [ ] LZ77
 - [ ] Run-length encoding
 - [ ] Shannon-Fano coding
 - [ ] Wavelet Compression
+
+## Computer Graphics
+
+- [ ] Brehensam's algorithm
+- [ ] Cohen-Sutherland algorithm
+- [ ] Cyrus-Beck algorithm
+- [ ] Digital differential algorithm
+- [ ] Greiner-Hormann algorithm
+- [ ] Gupta-Sproull algorithm
+- [ ] Liang-Barsky algorithm
+- [ ] Sutherland-Hodgman algorithm
+- [ ] Vatti Clipping algorithm
+- [ ] Weiler-Atherton clipping algorithm
+- [ ] Xiaolin Wu's line algorithm
 
 ## Cryptography
 
@@ -46,7 +60,6 @@ A work in progress.
 - [ ] Elliptic-curve Diffie-Hellman
 - [ ] Hill Cipher
 - [ ] Locality Sensitive Hashing
-- [ ] Morse Code
 - [ ] RSA Cipher
 - [ ] RSA Factorization
 - [ ] RSA Key Generator
@@ -57,27 +70,15 @@ A work in progress.
 
 ## Data Structures
 
-### Bloom Filter
-
-- [ ] Anagram Set
+- [ ] Bitset
 - [ ] Bloom Filter
-- [ ] String Set
-
-### Graphs
-
-- [ ] Adjacency List
-- [ ] Adjacency Matrix
-
-### Hash Table
-
 - [ ] Hash Table
-- [ ] Skip List
+- [x] Stack (Dynamic Array Based)
 
 ### Heap
 
 - [ ] Binomial Heap
 - [ ] Fibonacci Heap
-- [ ] Heap
 - [ ] Min Heap
 - [ ] Randomized Heap
 
@@ -86,6 +87,7 @@ A work in progress.
 - [ ] Doubly Linked List
 - [ ] Circular Linked List
 - [ ] Singly Linked List
+- [ ] Skip List
 
 ### Queue
 
@@ -93,18 +95,13 @@ A work in progress.
 - [ ] Priority Queue
 - [x] Queue (Dynamic Array Based)
 
-### Stack
-
-- [x] Stack (Dynamic Array Based)
-
 ### Tree
 
 - [ ] (2,4) tree
 - [ ] AVL Tree
+- [ ] B Tree
 - [ ] Basic Binary Tree
 - [ ] Binary Search Tree
-- [ ] Binary Indexed Tree ?
-- [ ] B Tree
 - [ ] Fenwick Tree
 - [ ] Interval Tree
 - [ ] K-d tree
@@ -112,9 +109,8 @@ A work in progress.
 - [ ] Merkle Tree
 - [ ] Quad Tree
 - [ ] Red-Black Tree
-- [ ] Segment Tree
+- [ ] Segment Tree with lazy propagation
 - [ ] Splay Tree
-- [ ] Sqrt decomposition
 - [ ] Sqrt tree
 - [ ] Stern-Brocot Tree and Farey sequences
 - [ ] Treap/Cartesian Tree
@@ -124,8 +120,7 @@ A work in progress.
 
 - [ ] Grid Percolation
 - [ ] Lowest Common Ancestors using DSU
-- [ ] Path compression
-- [ ] Union Find
+- [ ] Union Find with path compression
 
 ## Distributed Algorithms
 
@@ -136,26 +131,42 @@ A work in progress.
 - [ ] Chang and Robert's algorithm
 - [ ] Cristian's algorithm
 - [ ] Hirschberg-Sinclair algorithm
+- [ ] Ricart-Agrawala algorithm
 - [ ] Rumour Mongering
 - [ ] Suzuki-Kasami algorithm
+- [ ] Vector Clock
+- [ ] Yo-yo algorithm
 
 ## Dynamic Programming
 
 - [x] Coin Change Problem
 - [x] Coin Row Problem
-- [ ] Edit Distance
+- [ ] Edit/Levenshtein Distance
 - [ ] Fibonacci (Fast Doubling)
 - [ ] Fibonacci (Matrix Exponentiation)
 - [x] Fibonacci (Recursion with memoization)
 - [ ] Josephus Problem
 - [x] Kadane's algorithm - Maximum Subarray Problem
-- [x] 0/1 Knapsack Problem (Bounded)
-- [x] 0/1 Knapsack Problem (Unbounded)
+- [x] 0-1 Knapsack Problem (Bounded)
+- [x] 0-1 Knapsack Problem (Unbounded)
 - [ ] Longest Common Subsequence
 - [ ] Longest Common Substring
+- [ ] Longest Bitonic Subsequence
 - [ ] Longest Increasing Subsequence
 - [ ] Longest Palindrome Subsequence
+- [ ] Matrix Chain Multiplication
 - [ ] Shortest Common Supersequence
+- [ ] Subset Sum
+- [ ] Wildcard Pattern Matching
+- [ ] Word Break Problem
+
+## Fast Fourier Transform
+
+- [ ] Bluestein's FFT algorithm
+- [ ] Bruun's FFT algorithm
+- [ ] Cooley-Tukey algorithm
+- [ ] Prime factor FFT algorithm
+- [ ] Rader's FFT algorithm
 
 ## Game Theory
 
@@ -168,52 +179,60 @@ A work in progress.
 
 - [ ] Angles between vectors (2D, 3D)
 - [ ] Centroids
-- [ ] Chan's algorithm (Convex Hull)
 - [ ] Closest Pair of Points
 - [ ] Collinear Points
 - [ ] Collision detection
 - [ ] Cone algorithm
 - [ ] Coplanar Points
+- [ ] Convex Hull (Chan's algorithm)
+- [ ] Convex Hull (Gift wrapping algorithm)
+- [ ] Convex Hull (Graham's scan)
+- [ ] Convex Hull (Quickhull)
 - [ ] Euclidean Distance
 - [ ] Geometric hashing
-- [ ] Gift wrapping algorithm (Convex Hull)
 - [ ] Gilbert-Johnson-Keerthi distance
-- [ ] Graham's scan (Convex Hull)
 - [ ] Jump-and-Walk algorithm
 - [ ] Kirkpatrick-Seidel algorithm
 - [ ] Line segment intersection
+- [ ] Manhattan Distance
 - [ ] Mesh Generation
 - [ ] Minimum bounding box algorithm
+- [ ] Minkowski sum of convex polygons
 - [ ] Nearest Neighbour search
+- [x] Pick's Theorem
 - [ ] Point in polygon
 - [ ] Point Rotation
-- [ ] Quickhull
 - [ ] Shoelace algorithm
 - [ ] Sweep line algorithm
 
 ## Graph Theory
 
+- [ ] 2-SAT
 - [ ] A-* Search
 - [ ] B-* Search
+- [ ] Adjacency List
+- [ ] Adjacency Matrix
 - [ ] Beam Search
 - [ ] Beam stack search
 - [ ] Bellman-Ford Shortest Path
 - [ ] Best first search
 - [ ] Bidirectional search
+- [ ] Bipartite Graph Check
 - [ ] Breadth First Search
-- [ ] Check if a graph is bipartite
 - [ ] Christofides algorithm
+- [ ] Condensation Graph
 - [ ] Depth First Search
 - [ ] Detect and find cycles in a graph
 - [ ] Dijkstra's Shorted Path
-- [ ] Dinic's Algorithm
-- [ ] Edmonds' algorithm
+- [ ] D'Esopo-Pape algorithm
+- [ ] Edmonds' Algorithm
 - [ ] Euclidean shortest path problem
 - [ ] Euler Tour
-- [ ] Find augmenting paths in a flow network
-- [ ] Find bridges and articulation points
+- [ ] Finding articulation points
+- [ ] Finding augmenting paths in a flow network
+- [ ] Finding bridges
+- [ ] Finding negative cycles
 - [ ] Floyd-Warshall Shortest Path
-- [ ] Ford-Fulkerson algorithm
 - [ ] General Problem Solver
 - [ ] Girvan-Newman algorithm
 - [ ] Graph Coloring Algorithm
@@ -226,30 +245,31 @@ A work in progress.
 - [ ] Johnson's algorithm for sparse paths
 - [ ] Jump point search
 - [ ] Karger's algorithm
+- [ ] Kirchhoff's theorem
 - [ ] Kosaraju's algorithm - strongly connected components
 - [ ] Lexicographic BFS
+- [ ] Lowest Common Ancestor (Binary Lifting)
+- [ ] Lowest Common Ancestor (Farach-Colton and Bender algorithm)
+- [ ] Lowest Common Ancestor (Tarjan's off-line)
 - [ ] Longest path problem
 - [ ] Maximum Bipartite Matching
+- [ ] Maximum Flow (Dinic's Algorithm)
+- [ ] Maximum Flow (Ford-Fulkerson algorithm)
+- [ ] Maximum Flow (Push-relabel algorithm)
 - [ ] Minimum Spanning Tree (Kruskal)
 - [ ] Minimum Spanning Tree (Prim's)
+- [ ] Multifragment Heuristic
 - [ ] PageRank
 - [ ] Path-based strong components algorithm
 - [ ] Prufer coding
-- [ ] Push-relabel algoritms
 - [ ] Strongly Connected Components
 - [ ] Subgraph isomorphism problem
-- [ ] Tarjan's off-line lowest common ancestors algorithm
 - [ ] Tarjan's strongly connected components
 - [ ] Topologically sort the nodes of a graph
 - [ ] Transitive Closure Problem
 - [ ] TrustRank
 - [ ] Uniform-cost search
 - [ ] Warnsdorff's rule - Knight's tour heuristic
-
-## Greedy
-
-- [x] Fractional Knapsack Problem
-- [ ] Nearest Neighbour Shortest Path
 
 ## Linear Algebra
 
@@ -268,37 +288,51 @@ A work in progress.
 
 - [ ] Apriori Algorithm
 - [ ] AdaBoost
-- [ ] Backpropagation
 - [ ] C4.5 algorithm
-- [ ] Decision Tree
+- [ ] CART (Classification and Regression Tree)
+- [ ] Chi-square automatic interaction detection (CHAID)
 - [ ] Eclat Algorithm
-- [ ] Gradient Descent
-- [ ] Hopfield Network
+- [ ] Genetic Algorithm
+- [ ] Hidden Markov Model
+- [ ] Histogram of Oriented Gradients
 - [ ] ID3 algorithm
 - [ ] K-means Clustering
 - [ ] K Nearest Neighbours
+- [ ] Linear Discriminant Analysis
 - [ ] Linear Regression
 - [ ] Logistic Regression
-- [ ] Locality sensitive hashing
-- [ ] Multilayer Perceptron Classifier
+- [ ] Markov Chains
+- [ ] Monte Carlo Tree Search
 - [ ] Partial Least Squares Regression
-- [ ] Perceptron
 - [ ] Polynomial Regression
-- [ ] Pulse Coupled Neural Network
-- [ ] Radial Basis function network
+- [ ] Principal Component Analysis
 - [ ] Random Forest Classifier
 - [ ] Random Forest Regressor
 - [ ] Q Learning
 - [ ] Self organizing map
-- [ ] Stemming algorithm (method of reducing words to their stem forms)
+- [ ] Stemming algorithm
 - [ ] Support Vector Machine
 
 ## Neural Networks
 
-- [ ] Back Propagation Neural Network
+- [ ] Autoencoder
+- [ ] Back Propagation Neural Network with Gradient Descent
+- [ ] Bayesian Network
 - [ ] Convolutional Neural Network
+- [ ] Deep Belief Network
 - [ ] Generative Adversarial Network
+- [ ] Hierarchical temporal memory
+- [ ] Hopfield Network
+- [ ] Long Short Term Memory
+- [ ] Multilayer Perceptron Classifier
+- [ ] One-shot associative memory
 - [ ] Perceptron
+- [ ] Probabilistic Neural Network
+- [ ] Pulse Coupled Neural Network
+- [ ] Radial Basis function network
+- [ ] Recurrent Neural Network
+- [ ] Region-Based Convoluational Neural Network
+- [ ] You Only Look Once
 
 ## Number Theory
 
@@ -337,7 +371,7 @@ A work in progress.
 - [ ] Mersenne Twister Pseudorandom Number Generator
 - [ ] Modular Multiplicative Inverse
 - [ ] Modular Exponentiation
-- [ ] Montgomery Multiplications
+- [ ] Montgomery Multiplication
 - [ ] Number of divisors
 - [ ] Odlyzko-Schonhage algorithm
 - [ ] P-adic valuation
@@ -348,7 +382,8 @@ A work in progress.
 - [ ] Primality Check
 - [ ] Primitive Roots
 - [ ] Quadratic Sieve
-- [ ] Rabin Miller Primality Test
+- [ ] Rabin Miller Primality Test (Deterministic)
+- [ ] Rabin Miller Primality Test (Probabilisitic)
 - [ ] Schonhage-Strassen algorithm
 - [ ] Shor's Algorithm
 - [ ] Sieve of Atkin
@@ -359,27 +394,14 @@ A work in progress.
 - [ ] Toom-Cook multiplication
 - [ ] Tonelli-Shanks algorithm
 
-## Probability
+## Parsing
 
-- [ ] Hidden Markov Model
-- [ ] Markov Chains
-- [ ] Monte Carlo
-- [ ] Monte Carlo Tree Search
-
-## Search
-
-- [ ] Binary Search
-- [ ] Fibonacci Search
-- [ ] Hill Climbing Search
-- [ ] Interpolation Search
-- [ ] Jump Search
-- [ ] Linear Search
-- [ ] Predictive Search
-- [ ] Quick Select
-- [ ] Simulated Annealing
-- [ ] Tabu Search
-- [ ] Ternary Search
-- [ ] Uniform binary search
+- [ ] CYK parsing algorihm
+- [ ] LL Parsing
+- [ ] LR Parsing
+- [ ] Pratt Parsing
+- [ ] Recursive descent parsing
+- [ ] Shunting Yard algorithm
 
 ## Sorting
 
@@ -409,7 +431,7 @@ A work in progress.
 - [ ] Introselect
 - [ ] Quickselect
 
-## String
+## Strings
 
 - [ ] Aho-Corasick string matching algorithm
 - [ ] Boyer-Moore String Search
@@ -425,7 +447,7 @@ A work in progress.
 - [ ] Longest Repeated Substring
 - [ ] Lyndon factorization
 - [ ] Manacher's algorithm
-- [ ] Rabin-Karp algorithm
+- [ ] Rabin-Karp string matching algorithm
 - [ ] Radix Sort
 - [ ] Rich Salz' wildmat
 - [ ] String matching with finite automata
@@ -439,31 +461,40 @@ A work in progress.
 
 ## Miscellaneous
 
+- [ ] Balanced Ternary
 - [ ] Banker's algorithm
-- [ ] Bluestein's FFT algorithm
+- [ ] Binary Search
 - [ ] Buddy memory allocation
-- [ ] Cyclic Redundancy check
-- [ ] CYK parsing algorihm
-- [ ] Dekker's algorthim
+- [ ] Cellular Automata
+- [ ] Dekker's algorithm
 - [ ] Doomsday algorithm
 - [ ] Easter day algorithms
-- [ ] Exponential backoff
-- [ ] Fast Fourier Transform
-- [ ] Forward error correction
-- [ ] Generational garbage collector
+- [ ] Fibonacci Search
+- [x] Fractional Knapsack Problem
+- [x] Generating subsets
 - [ ] Gray code
+- [ ] Hill Climbing Search
 - [ ] Hopcroft's algorithm
-- [ ] Josephus Problem
-- [ ] LL Parsing
-- [ ] LR Parsing
+- [ ] Jump Search
+- [ ] Integration by Simpson's Formula
+- [ ] Interpolation Search
+- [ ] K-order statistic
+- [ ] Kleene's algorithm
 - [ ] Meet in the middle
 - [ ] Mo's algorithm
-- [ ] Powerset construction
-- [ ] Pratt Parsing
-- [ ] Prime factor FFT algorithm
-- [ ] Recurisive descent parsing
-- [ ] Shunting Yard algorithm
+- [ ] Newton's algorithm for finding roots
+- [ ] Powerset construction (aka Rabin-Scott subset construction)
+- [ ] Predictive Search
+- [ ] Range XOR
+- [ ] Quick Select
+- [ ] Simplex Algorithm
+- [ ] Simulated Annealing
+- [ ] Sqrt decomposition
+- [ ] Tabu Search
+- [ ] Ternary Search
+- [ ] Thompson's construction algorithm
 - [ ] Tomasulo algorithm
-- [ ] Truncated binary exponential backoff
+- [ ] Tracing garbage collection
+- [ ] Uniform binary search
 - [ ] Xor swap algorithm
 - [ ] Zeller's congruence

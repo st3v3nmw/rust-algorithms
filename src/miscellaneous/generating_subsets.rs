@@ -1,7 +1,7 @@
 /**
     Generating subsets (O(2^n) time).
 **/
-fn subsets<T: Copy>(set: &[T]) -> Vec<Vec<T>> {
+pub fn subsets<T: Copy>(set: &[T]) -> Vec<Vec<T>> {
     let mut sets: Vec<Vec<T>> = vec![];
     for mut n in 0..2_i32.pow(set.len() as u32) {
         let mut pos = 0;
@@ -19,6 +19,12 @@ fn subsets<T: Copy>(set: &[T]) -> Vec<Vec<T>> {
     return sets;
 }
 
-fn main() {
-    assert_eq!(subsets(&(['A', 'B', 'C'])), [vec![], vec!['A'], vec!['B'], vec!['A', 'B'], vec!['C'], vec!['A', 'C'], vec!['B', 'C'], vec!['A', 'B', 'C']]);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn subsets_test() {
+        assert_eq!(subsets(&(['A', 'B', 'C'])), [vec![], vec!['A'], vec!['B'], vec!['A', 'B'], vec!['C'], vec!['A', 'C'], vec!['B', 'C'], vec!['A', 'B', 'C']]);
+    }
 }

@@ -7,7 +7,7 @@ use std::cmp::max;
     dp[1] = coins[1]
     dp[i] = max(coins[i] + dp[i-2], dp[i-1])
 **/
-fn coin_row(coins: &mut Vec<i64>) -> (Vec<i64>, i64) {
+pub fn coin_row(coins: &mut Vec<i64>) -> (Vec<i64>, i64) {
     let mut dp: Vec<i64> = vec![0; coins.len() + 1];
     coins.insert(0, 0);
     dp[1] = coins[1];
@@ -32,6 +32,12 @@ fn coin_row(coins: &mut Vec<i64>) -> (Vec<i64>, i64) {
     return (picked, total);
 }
 
-fn main() {
-    assert_eq!(coin_row(&mut (vec![5, 1, 2, 10, 6, 2])), (vec![5, 10, 2], 17));
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn coin_row_test() {
+        assert_eq!(coin_row(&mut (vec![5, 1, 2, 10, 6, 2])), (vec![5, 10, 2], 17));
+    }
 }

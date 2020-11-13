@@ -1,7 +1,20 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+pub mod backtracking;
+pub mod combinatorics;
+pub mod compression;
+pub mod computer_graphics;
+pub mod cryptography;
+pub mod data_structures;
+pub mod distributed_systems;
+pub mod dynamic_programming;
+pub mod fft;
+pub mod game_theory;
+pub mod geometry;
+pub mod graph_theory;
+pub mod linear_algebra;
+pub mod machine_learning;
+pub mod miscellaneous;
+pub mod neural_networks;
+pub mod number_theory;
+pub mod parsing;
+pub mod sorting;
+pub mod strings;
