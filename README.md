@@ -313,27 +313,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Stemming algorithm
 - [ ] Support Vector Machine
 
-## Neural Networks
-
-- [ ] Autoencoder
-- [ ] Back Propagation Neural Network with Gradient Descent
-- [ ] Bayesian Network
-- [ ] Convolutional Neural Network
-- [ ] Deep Belief Network
-- [ ] Generative Adversarial Network
-- [ ] Hierarchical temporal memory
-- [ ] Hopfield Network
-- [ ] Long Short Term Memory
-- [ ] Multilayer Perceptron Classifier
-- [ ] One-shot associative memory
-- [ ] Perceptron
-- [ ] Probabilistic Neural Network
-- [ ] Pulse Coupled Neural Network
-- [ ] Radial Basis function network
-- [ ] Recurrent Neural Network
-- [ ] Region-Based Convoluational Neural Network
-- [ ] You Only Look Once
-
 ## Number Theory
 
 - [ ] ACORN Pseudorandom Number Generator
