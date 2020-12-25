@@ -1,8 +1,7 @@
 # Algorithms
 
 Repository for my algorithms and data structures implementation (Lists approx. 400 algorithms). \
-Checked algorithms have been implemented in Rust in the respective folders. \
-A work in progress.
+Checked algorithms have been implemented in Rust in "src/respective folder".
 
 ## Backtracking
 
@@ -219,6 +218,7 @@ A work in progress.
 - [ ] Bidirectional search
 - [ ] Bipartite Graph Check
 - [ ] Breadth First Search
+- [ ] Bron-Kerbosch algorithm
 - [ ] Christofides algorithm
 - [ ] Condensation Graph
 - [ ] Depth First Search
@@ -425,11 +425,8 @@ A work in progress.
 - [x] Selection Sort
 - [ ] Shell Sort
 - [ ] Stooge Sort
-- [ ] Wavelet tree
 - [ ] Tim Sort
 - [ ] Tree Sort
-- [ ] Introselect
-- [ ] Quickselect
 
 ## Strings
 
@@ -456,6 +453,7 @@ A work in progress.
 - [ ] Suffix Tree
 - [ ] Trie
 - [ ] Ukkonen's algorithm
+- [ ] Wavelet tree
 - [ ] Z Function
 - [ ] Zhu-Takaoka string matching
 
@@ -470,6 +468,7 @@ A work in progress.
 - [ ] Doomsday algorithm
 - [ ] Easter day algorithms
 - [ ] Fibonacci Search
+- [ ] Floyd-Rivest algorithm
 - [x] Fractional Knapsack Problem
 - [x] Generating subsets
 - [ ] Gray code
@@ -478,6 +477,7 @@ A work in progress.
 - [ ] Jump Search
 - [ ] Integration by Simpson's Formula
 - [ ] Interpolation Search
+- [ ] Introselect
 - [ ] K-order statistic
 - [ ] Kleene's algorithm
 - [ ] Meet in the middle
@@ -486,7 +486,7 @@ A work in progress.
 - [ ] Powerset construction (aka Rabin-Scott subset construction)
 - [ ] Predictive Search
 - [ ] Range XOR
-- [ ] Quick Select
+- [ ] Quickselect
 - [ ] Simplex Algorithm
 - [ ] Simulated Annealing
 - [ ] Sqrt decomposition

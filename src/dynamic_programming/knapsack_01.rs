@@ -1,10 +1,10 @@
 use std::cmp::max;
 
 /**
-    Bounded 0/1 Knapsack Problem
-    if j - weights[i] >= 0 -> dp[i][j] = max(dp[i-1][j], values[i] + dp[i-1][j - weights[i]])
-    if j - weights[i]  < 0 -> dp[i][j] = dp[i-1][j]
-**/
+ * Bounded 0/1 Knapsack Problem
+ * if j - weights[i] >= 0 -> dp[i][j] = max(dp[i-1][j], values[i] + dp[i-1][j - weights[i]])
+ * if j - weights[i]  < 0 -> dp[i][j] = dp[i-1][j]
+ */
 pub fn bounded_01_knapsack(weights: &[i64], values: &[i64], capacity: i64) -> i64 {
     let mut dp: Vec<Vec<i64>> = vec![vec![0; capacity as usize + 1]; weights.len() + 1];
 
@@ -23,11 +23,11 @@ pub fn bounded_01_knapsack(weights: &[i64], values: &[i64], capacity: i64) -> i6
 }
 
 /**
-    Unbounded 0/1 Knapsack Problem
-    (The rod cutting problem is an instance of this problem)
-    dp[j] = 0 (initialization)
-    dp[j] = max(dp[j], values[i] + dp[j - weights[i]])
-**/
+ * Unbounded 0/1 Knapsack Problem
+ * (The rod cutting problem is an instance of this problem)
+ * dp[j] = 0 (initialization)
+ * dp[j] = max(dp[j], values[i] + dp[j - weights[i]])
+ */
 pub fn unbounded_01_knapsack(weights: &[i64], values: &[i64], capacity: i64) -> i64 {
     let mut dp: Vec<i64> = vec![0; capacity as usize + 1];
 

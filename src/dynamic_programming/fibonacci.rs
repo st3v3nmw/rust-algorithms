@@ -1,12 +1,11 @@
 #[macro_export] macro_rules! ternary { ($condition: expr, $_true: expr, $_false: expr) => { if $condition { $_true } else { $_false } }; }
 
 /**
-    Fibonacci Sequence
-    f[0] = 0
-    f[1] = 1
-    f[n] = f[n-1] + f[n-2]
-**/
-
+ * Fibonacci Sequence
+ * f[0] = 0
+ * f[1] = 1
+ * f[n] = f[n-1] + f[n-2]
+ */
 pub fn fibonacci_iterative(n: i64) -> i64 { // O(n) time
     let mut f: Vec<i64> = vec![0; n as usize + 1];
     f[1] = 1;

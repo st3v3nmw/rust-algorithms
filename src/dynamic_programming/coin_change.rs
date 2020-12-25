@@ -1,10 +1,10 @@
 /**
-    Coin Change Problem
-    Given denominations, provide the required change using the least number of coins.
-    dp[0] = 0
-    dp[i] = min(dp[i - denominations[j]]) + 1
-**/
-pub fn coin_change(denominations: &mut Vec<i64>, change: i64) -> Vec<i64> {
+ * Coin Change Problem
+ * Given denominations, provide the required change using the least number of coins.
+ * dp[0] = 0
+ * dp[i] = min(dp[i - denominations[j]]) + 1
+ */
+pub fn coin_change(denominations: &mut [i64], change: i64) -> Vec<i64> {
     let mut dp: Vec<(i64, i64)> = vec![(i64::MAX, 0); change as usize + 1];
     dp[0].0 = 0;
 

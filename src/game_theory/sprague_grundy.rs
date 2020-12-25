@@ -1,3 +1,9 @@
+/**
+ * Sprague Grundy Theorem for combinatorial games like Nim
+ * Let G(u) be the Grundy number of a pile with u stones. The  Grundy number of a terminal state is 0;
+ * otherwise, G(u) is recursively defined as x = mex{x_1,...,x_k} where x_i is the Grundy value for state v_i and
+ * the function mex (minimum excludant) is the smallest non-negative integer not found in the given set.
+*/
 pub fn sprague_grundy(n: i32, nimbres: &mut [i32], moves: &[i32]) -> i32 {
     if nimbres[n as usize] != -1 {
         return nimbres[n as usize];

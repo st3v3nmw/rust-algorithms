@@ -1,6 +1,6 @@
 /**
-    Generating subsets (O(2^n) time).
-**/
+ * Generating subsets (O(2^n) time).
+ */
 pub fn subsets<T: Copy>(set: &[T]) -> Vec<Vec<T>> {
     let mut sets: Vec<Vec<T>> = vec![];
     for mut n in 0..2_i32.pow(set.len() as u32) {
