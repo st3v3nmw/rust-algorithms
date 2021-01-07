@@ -33,20 +33,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Shannon-Fano coding
 - [ ] Wavelet Compression
 
-## Computer Graphics
-
-- [ ] Brehensam's algorithm
-- [ ] Cohen-Sutherland algorithm
-- [ ] Cyrus-Beck algorithm
-- [ ] Digital differential algorithm
-- [ ] Greiner-Hormann algorithm
-- [ ] Gupta-Sproull algorithm
-- [ ] Liang-Barsky algorithm
-- [ ] Sutherland-Hodgman algorithm
-- [ ] Vatti Clipping algorithm
-- [ ] Weiler-Atherton clipping algorithm
-- [ ] Xiaolin Wu's line algorithm
-
 ## Cryptography
 
 - [ ] Affine Cipher
@@ -120,21 +106,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Grid Percolation
 - [ ] Lowest Common Ancestors using DSU
 - [ ] Union Find with path compression
-
-## Distributed Algorithms
-
-- [ ] Berkeley algorithm
-- [ ] Bully algorithm
-- [ ] Byzantine fault tolerance
-- [ ] Chandra-Toueg consensus algorithm
-- [ ] Chang and Robert's algorithm
-- [ ] Cristian's algorithm
-- [ ] Hirschberg-Sinclair algorithm
-- [ ] Ricart-Agrawala algorithm
-- [ ] Rumour Mongering
-- [ ] Suzuki-Kasami algorithm
-- [ ] Vector Clock
-- [ ] Yo-yo algorithm
 
 ## Dynamic Programming
 
@@ -397,9 +368,7 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 ## Miscellaneous
 
 - [ ] Balanced Ternary
-- [ ] Banker's algorithm
 - [ ] Binary Search
-- [ ] Buddy memory allocation
 - [ ] Cellular Automata
 - [ ] Dekker's algorithm
 - [ ] Doomsday algorithm
@@ -408,7 +377,7 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Floyd-Rivest algorithm
 - [x] Fractional Knapsack Problem
 - [x] Generating subsets
-- [ ] Gray code
+- [x] Gray code
 - [ ] Hill Climbing Search
 - [ ] Hopcroft's algorithm
 - [ ] Jump Search
