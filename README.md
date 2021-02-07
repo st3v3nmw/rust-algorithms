@@ -1,6 +1,7 @@
 # Algorithms
 
-Repository for my algorithms and data structures implementation (Lists approx. 400 algorithms). \
+Repository for my algorithms and data structures implementation (Lists approx. 350 algorithms).
+
 Checked algorithms have been implemented in Rust in "src/respective folder".
 
 ## Backtracking
@@ -241,6 +242,19 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] TrustRank
 - [ ] Uniform-cost search
 - [ ] Warnsdorff's rule - Knight's tour heuristic
+
+## Linear Algebra
+
+- [ ] Biconjugate gradient method
+- [ ] Freivalds' algorithm
+- [ ] Gaussian Elimination
+- [ ] Kraut & Determinant
+- [ ] Matrix Inverse
+- [x] Matrix Multiplication - Normal
+- [x] Matrix Transposition
+- [ ] Rank of a matrix
+- [ ] Strassen Matrix Multiplication
+- [ ] Symbolic Cholesky decomposition
 
 ## Number Theory
 
