@@ -9,19 +9,17 @@ pub fn coin_change(denominations: &mut [i64], change: i64) -> Vec<i64> {
     dp[0].0 = 0;
 
     for i in 1..change + 1 {
-        for i in 1..change + 1 {
-            let mut changed: bool = false;
-            for j in 0..denominations.len() {
-                let idx: i64 = i - denominations[j];
-                if idx >= 0 && dp[i as usize].0 > dp[idx as usize].0 {
-                    dp[i as usize].0 = dp[idx as usize].0;
-                    dp[i as usize].1 = denominations[j];
-                    changed = true;
-                }
+        let mut changed: bool = false;
+        for j in 0..denominations.len() {
+            let idx: i64 = i - denominations[j];
+            if idx >= 0 && dp[i as usize].0 > dp[idx as usize].0 {
+                dp[i as usize].0 = dp[idx as usize].0;
+                dp[i as usize].1 = denominations[j];
+                changed = true;
             }
-            if changed {
-                dp[i as usize].0 += 1;
-            }
+        }
+        if changed {
+            dp[i as usize].0 += 1;
         }
     }
 

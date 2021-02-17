@@ -178,7 +178,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 
 ## Graph Theory
 
-- [ ] 2-SAT
 - [ ] A-* Search
 - [ ] B-* Search
 - [ ] Adjacency List
@@ -325,7 +324,7 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Recursive descent parsing
 - [ ] Shunting Yard algorithm
 
-## Sorting
+## Sorting & Order Statistics
 
 - [ ] Bitonic Sort
 - [ ] Bogo Sort
@@ -339,11 +338,14 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Gnome Sort
 - [ ] Heap Sort
 - [x] Insertion Sort
+- [ ] Introselect
 - [ ] Intro Sort
-- [ ] Merge Sort
+- [ ] K-order statistic
+- [ ] Mergesort
 - [ ] Odd-even Sort
 - [ ] Pigeonhole Sort
-- [ ] Quick Sort
+- [ ] Quicksort
+- [ ] Quickselect
 - [x] Selection Sort
 - [ ] Shell Sort
 - [ ] Stooge Sort
@@ -381,6 +383,7 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 
 ## Miscellaneous
 
+- [ ] 2-SAT
 - [ ] Balanced Ternary
 - [ ] Binary Search
 - [ ] Cellular Automata
@@ -397,8 +400,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Jump Search
 - [ ] Integration by Simpson's Formula
 - [ ] Interpolation Search
-- [ ] Introselect
-- [ ] K-order statistic
 - [ ] Kleene's algorithm
 - [ ] Meet in the middle
 - [ ] Mo's algorithm
@@ -406,7 +407,6 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Powerset construction (aka Rabin-Scott subset construction)
 - [ ] Predictive Search
 - [ ] Range XOR
-- [ ] Quickselect
 - [ ] Simplex Algorithm
 - [ ] Simulated Annealing
 - [ ] Sqrt decomposition

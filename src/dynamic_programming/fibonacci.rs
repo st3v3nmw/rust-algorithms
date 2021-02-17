@@ -1,5 +1,3 @@
-#[macro_export] macro_rules! ternary { ($condition: expr, $_true: expr, $_false: expr) => { if $condition { $_true } else { $_false } }; }
-
 /**
  * Fibonacci Sequence
  * f[0] = 0
@@ -31,8 +29,8 @@ pub fn fibonacci_recursive(n: i64, dp: &mut [i64]) -> i64 {
         return 1;
     }
 
-    let f1: i64 = ternary!(dp[n as usize - 1] == -1, fibonacci_recursive(n - 1, dp), dp[n as usize - 1]);
-    let f2: i64 = ternary!(dp[n as usize - 2] == -1, fibonacci_recursive(n - 2, dp), dp[n as usize - 2]);
+    let f1: i64 = if dp[n as usize - 1] == -1 { fibonacci_recursive(n - 1, dp) } else { dp[n as usize - 1] };
+    let f2: i64 = if dp[n as usize - 2] == -1 { fibonacci_recursive(n - 2, dp) } else { dp[n as usize - 2] };
 
     dp[n as usize] = f1 + f2; // memoize
     return dp[n as usize];
