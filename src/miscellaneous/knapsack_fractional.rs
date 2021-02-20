@@ -1,10 +1,10 @@
 use std::cmp::Ordering::Equal;
 
-pub fn fractional_knapsack(weights: &Vec<f32>, values: &Vec<f32>, mut capacity: f32) -> f32 {
+pub fn fractional_knapsack(weights: &Vec<f64>, values: &Vec<f64>, mut capacity: f64) -> f64 {
     let mut ratios: Vec<_> = weights.iter().zip(values).collect();
     ratios.sort_unstable_by(|(x1, y1), (x2, y2)| ((**y2 / **x2).partial_cmp(&(**y1 / **x1))).unwrap_or(Equal));
 
-    let mut value: f32 = 0.0;
+    let mut value: f64 = 0.0;
     for (x, y) in &ratios {
         if **x < capacity {
             value += **y;

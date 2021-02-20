@@ -17,7 +17,7 @@ pub fn coin_row(coins: &mut Vec<i64>) -> (Vec<i64>, i64) {
     let total: i64 = dp[dp.len() - 1];
 
     // get coins
-    let mut i: i32= dp.len() as i32 - 1;
+    let mut i: i64= dp.len() as i64 - 1;
     let mut picked: Vec<i64> = vec![];
     while i >= 0 {
         if dp[i as usize] == dp[(i - 1) as usize] {
