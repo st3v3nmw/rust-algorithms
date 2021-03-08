@@ -4,7 +4,8 @@
  * f[1] = 1
  * f[n] = f[n-1] + f[n-2]
  */
-pub fn fibonacci_iterative(n: i64) -> i64 { // O(n) time
+pub fn fibonacci_iterative(n: i64) -> i64 {
+    // O(n) time
     let mut f: Vec<i64> = vec![0; n as usize + 1];
     f[1] = 1;
 
@@ -29,8 +30,16 @@ pub fn fibonacci_recursive(n: i64, dp: &mut [i64]) -> i64 {
         return 1;
     }
 
-    let f1: i64 = if dp[n as usize - 1] == -1 { fibonacci_recursive(n - 1, dp) } else { dp[n as usize - 1] };
-    let f2: i64 = if dp[n as usize - 2] == -1 { fibonacci_recursive(n - 2, dp) } else { dp[n as usize - 2] };
+    let f1: i64 = if dp[n as usize - 1] == -1 {
+        fibonacci_recursive(n - 1, dp)
+    } else {
+        dp[n as usize - 1]
+    };
+    let f2: i64 = if dp[n as usize - 2] == -1 {
+        fibonacci_recursive(n - 2, dp)
+    } else {
+        dp[n as usize - 2]
+    };
 
     dp[n as usize] = f1 + f2; // memoize
     return dp[n as usize];

@@ -1,9 +1,9 @@
 pub fn bubble_sort<T: Ord + Copy>(arr: &mut [T]) {
     let len: usize = arr.len();
     for _ in 0..len {
-        for i in 0..len-1 {
-            if arr[i] > arr[i+1] {
-                arr.swap(i, i+1);
+        for i in 0..len - 1 {
+            if arr[i] > arr[i + 1] {
+                arr.swap(i, i + 1);
             }
         }
     }

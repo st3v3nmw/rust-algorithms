@@ -1,6 +1,6 @@
 /**
  * Longest Increasing Subsequence
- * (Strictly increasing subsequence) 
+ * (Strictly increasing subsequence)
  */
 pub fn longest_increasing_subsequence<T: Ord + Copy>(v: &[T]) -> Vec<T> {
     let mut dp: Vec<(i64, i64)> = vec![(0, 0); v.len()];
@@ -20,7 +20,7 @@ pub fn longest_increasing_subsequence<T: Ord + Copy>(v: &[T]) -> Vec<T> {
             dp[i].0 = idx_max_len;
             dp[i].1 = dp[idx_max_len as usize].1 + 1;
         }
-        
+
         // keep track of element with longest chain so far
         if dp[i].1 >= dp[max_elem_idx].1 {
             max_elem_idx = i;
@@ -49,7 +49,13 @@ mod tests {
 
     #[test]
     fn lis_test() {
-        assert_eq!(longest_increasing_subsequence(&(vec![2, 0, 5, 3, 1, 4, 4, 5, 4, 6])), vec![2, 3, 4, 5, 6]);
-        assert_eq!(longest_increasing_subsequence(&(vec!['Y', 'M', 'U', 'B', 'T', 'F', 'Y', 'S'])), vec!['B', 'F', 'S']);
+        assert_eq!(
+            longest_increasing_subsequence(&(vec![2, 0, 5, 3, 1, 4, 4, 5, 4, 6])),
+            vec![2, 3, 4, 5, 6]
+        );
+        assert_eq!(
+            longest_increasing_subsequence(&(vec!['Y', 'M', 'U', 'B', 'T', 'F', 'Y', 'S'])),
+            vec!['B', 'F', 'S']
+        );
     }
 }

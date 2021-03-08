@@ -8,7 +8,8 @@ pub fn sprague_grundy(n: i64, nimbres: &mut [i64], moves: &[i64]) -> i64 {
     if nimbres[n as usize] != -1 {
         return nimbres[n as usize];
     }
-    if n == 0 { // terminal state
+    if n == 0 {
+        // terminal state
         nimbres[0] = 0;
         return 0;
     }

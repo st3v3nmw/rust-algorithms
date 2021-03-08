@@ -1,6 +1,6 @@
 // TODO
 
-fn quick_sort<T: Ord + Copy>(left: usize, right: usize, arr: &mut [T]){
+fn quick_sort<T: Ord + Copy>(left: usize, right: usize, arr: &mut [T]) {
     if right - left <= 0 {
         return;
     }

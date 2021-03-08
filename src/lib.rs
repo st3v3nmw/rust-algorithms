@@ -1,7 +1,6 @@
 pub mod backtracking;
 pub mod combinatorics;
 pub mod compression;
-pub mod computer_graphics;
 pub mod cryptography;
 pub mod data_structures;
 pub mod dynamic_programming;

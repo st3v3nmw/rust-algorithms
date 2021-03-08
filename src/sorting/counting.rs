@@ -20,6 +20,9 @@ mod tests {
     #[test]
     fn counting_sort_test() {
         let mut arr: Vec<i64> = vec![3, -2, 9, 0, 12, -5, 8, 0];
-        assert_eq!(counting_sort(&mut arr, -5, 15), vec![-5, -2, 0, 0, 3, 8, 9, 12]);
+        assert_eq!(
+            counting_sort(&mut arr, -5, 15),
+            vec![-5, -2, 0, 0, 3, 8, 9, 12]
+        );
     }
 }

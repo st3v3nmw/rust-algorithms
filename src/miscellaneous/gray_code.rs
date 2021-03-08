@@ -11,7 +11,7 @@ pub fn gen(codes: &mut Vec<String>) -> Vec<String> {
 
 pub fn gray_code(n: usize) -> Vec<String> {
     let mut codes: Vec<String> = vec![String::from("0"), String::from("1")];
-    for _ in 0..n-1 {
+    for _ in 0..n - 1 {
         codes = gen(&mut codes);
     }
     codes

@@ -2,7 +2,7 @@
 struct CartesianTreeNode {
     value: i64,
     left: Option<Box<CartesianTreeNode>>,
-    right: Option<Box<CartesianTreeNode>>
+    right: Option<Box<CartesianTreeNode>>,
 }
 
 impl CartesianTreeNode {
@@ -21,11 +21,15 @@ impl CartesianTreeNode {
         }
 
         let mut right = None;
-        if v[max_idx+1..v.len()].len() > 0 {
-            right = Some(Box::new(Self::new(&v[max_idx+1..v.len()])));
+        if v[max_idx + 1..v.len()].len() > 0 {
+            right = Some(Box::new(Self::new(&v[max_idx + 1..v.len()])));
         }
 
-        Self{value: max_val, left, right}
+        Self {
+            value: max_val,
+            left,
+            right,
+        }
     }
 }
 
@@ -35,7 +39,7 @@ mod tests {
 
     #[test]
     fn cartesian_tree_test() {
-        let mut root = CartesianTreeNode::new(&vec![3 ,5 ,2, 1, 4]);
+        let mut root = CartesianTreeNode::new(&vec![3, 5, 2, 1, 4]);
         dbg!(root);
     }
 }

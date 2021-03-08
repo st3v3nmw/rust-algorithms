@@ -25,6 +25,18 @@ mod tests {
 
     #[test]
     fn subsets_test() {
-        assert_eq!(subsets(&(['A', 'B', 'C'])), [vec![], vec!['A'], vec!['B'], vec!['A', 'B'], vec!['C'], vec!['A', 'C'], vec!['B', 'C'], vec!['A', 'B', 'C']]);
+        assert_eq!(
+            subsets(&(['A', 'B', 'C'])),
+            [
+                vec![],
+                vec!['A'],
+                vec!['B'],
+                vec!['A', 'B'],
+                vec!['C'],
+                vec!['A', 'C'],
+                vec!['B', 'C'],
+                vec!['A', 'B', 'C']
+            ]
+        );
     }
 }
