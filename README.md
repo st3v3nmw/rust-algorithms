@@ -341,10 +341,10 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Introselect
 - [ ] Intro Sort
 - [ ] K-order statistic
-- [ ] Mergesort
+- [x] Mergesort
 - [ ] Odd-even Sort
 - [ ] Pigeonhole Sort
-- [ ] Quicksort
+- [x] Quicksort
 - [ ] Quickselect
 - [x] Selection Sort
 - [ ] Shell Sort
