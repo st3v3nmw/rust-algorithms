@@ -11,7 +11,7 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Knight's Tour Problem
 - [ ] N Queens Puzzle
 - [ ] Subset Sum
-- [ ] Sudoku
+- [x] Sudoku
 
 ## Combinatorics
 
