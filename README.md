@@ -255,6 +255,35 @@ Checked algorithms have been implemented in Rust in "src/respective folder".
 - [ ] Strassen Matrix Multiplication
 - [ ] Symbolic Cholesky decomposition
 
+## Machine Learning
+
+- [ ] Apriori Algorithm
+- [ ] AdaBoost
+- [ ] C4.5 algorithm
+- [ ] CART (Classification and Regression Tree)
+- [ ] Chi-square automatic interaction detection (CHAID)
+- [ ] Eclat Algorithm
+- [ ] Genetic Algorithm
+- [ ] Hidden Markov Model
+- [ ] Histogram of Oriented Gradients
+- [ ] ID3 algorithm
+- [ ] K-means Clustering
+- [ ] K Nearest Neighbours
+- [ ] Linear Discriminant Analysis
+- [ ] Linear Regression
+- [ ] Logistic Regression
+- [ ] Markov Chains
+- [ ] Monte Carlo Tree Search
+- [ ] Partial Least Squares Regression
+- [ ] Polynomial Regression
+- [ ] Principal Component Analysis
+- [ ] Random Forest Classifier
+- [ ] Random Forest Regressor
+- [ ] Q Learning
+- [ ] Self organizing map
+- [ ] Stemming algorithm
+- [ ] Support Vector Machine
+
 ## Number Theory
 
 - [ ] ACORN Pseudorandom Number Generator
